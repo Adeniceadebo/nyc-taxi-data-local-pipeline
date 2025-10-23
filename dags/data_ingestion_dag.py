@@ -6,6 +6,7 @@ import pandas as pd #type: ignore
 from sqlalchemy import create_engine #type: ignore
 import os 
 
+
 URL_PREFIX = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/'
 URL_TEMPLATE = URL_PREFIX + 'yellow_tripdata_{{ execution_date.strftime("%Y-%m") }}.csv.gz'
 OUTPUT_DIR = '/opt/airflow/data'

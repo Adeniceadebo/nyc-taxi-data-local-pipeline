@@ -20,6 +20,7 @@ dags/__pycache__/
 airflow.cfg
 unittests.cfg
 
+
 # Data files
 data/
 *.csv
