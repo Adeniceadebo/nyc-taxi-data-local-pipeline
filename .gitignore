@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+*.egg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+
+# Airflow
+logs/
+plugins/__pycache__/
+dags/__pycache__/
+airflow.cfg
+unittests.cfg
+
+# Data files
+data/
+*.csv
+*.csv.gz
+*.parquet
+*.json
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+*.bak
+pgdata/
+__pycache__/
